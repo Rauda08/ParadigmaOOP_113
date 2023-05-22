@@ -130,7 +130,8 @@
     <ClCompile Include="MainJM_113.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h" />
+    <ClInclude Include="mainJM.h" />
+    <ClInclude Include="manusia.h" />
     <ClInclude Include="jantung.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
