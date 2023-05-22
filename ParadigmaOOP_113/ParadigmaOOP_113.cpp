@@ -8,7 +8,7 @@ public:
 
     orang(string pNama) :
         nama(pNama) {
-        cout << "orang dibuat\"<<endl;
+        cout << "orang dibuat\n"<<endl;
     }
     ~orang() {
         cout << "orang dihapus\n" << endl;
@@ -17,7 +17,6 @@ public:
     int jumlah(int a, int b) {
         return a + b;
     }
-
 };
 
 class pelajar: public orang {
@@ -33,14 +32,14 @@ class pelajar: public orang {
         cout << "pelajar dihapus\n" << endl;
     }
     string perkenalan() {
-        return "Hallo, nama saya " + nama + " dari sekolah " + sekolah + "\n\n"
+        return "Hallo, nama saya " + nama + " dari sekolah " + sekolah + "\n\n";
     }
 };
 
 int main() {
-    pelajar siswa1("andi laksono"), "SMAN 1 Bantul");
+    pelajar siswa1("andi laksono", "SMAN 1 Bantul");
     cout << siswa1.perkenalan();
-    cout << "Hasil = " << siswa.jumlah(10, 90) << endl;
+    cout << "Hasil = " << siswa1.jumlah(10, 90) << endl;
 
     return 0;
 }
