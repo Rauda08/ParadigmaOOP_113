@@ -65,7 +65,16 @@ int main() {
     varDokter1->tambahPasien(varPasien2);
     varDokter2->tambahPasien(varPasien1);
 
-}
+    varDokter1->cetakPasien();
+    varDokter2->cetakPasien();
+    varpasien1->cetakDokter();
+    varPasien2->cetakDokter();
+
+    delete varPasien1;
+    delete varPasien2;
+    delete varDokter1;
+    delete varDokter2;
+
 {
     std::cout << "Hello World!\n";
 }
