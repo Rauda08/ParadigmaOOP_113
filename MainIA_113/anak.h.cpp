@@ -9,6 +9,6 @@ public:
 	}
 	~anak() {
 		cout << "Anak \"" << nama << "\" tidak ada\n";
-
 	}
 };
+#endif
