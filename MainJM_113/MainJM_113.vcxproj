@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="MainJM_113.cpp" />
+    <ClCompile Include="mainJM.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mainJM.h" />

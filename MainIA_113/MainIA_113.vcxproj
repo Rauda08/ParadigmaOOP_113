@@ -127,8 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="MainIA_113.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="MainIA.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="anak.h" />

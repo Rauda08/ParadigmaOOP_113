@@ -18,6 +18,9 @@
     <ClCompile Include="MainJM_113.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="mainJM.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="jantung.h">
