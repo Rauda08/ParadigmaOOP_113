@@ -20,7 +20,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h">
+    <ClInclude Include="anak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ibu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

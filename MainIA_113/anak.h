@@ -12,6 +12,3 @@ public:
     }
 };
 #endif
-
-
-
