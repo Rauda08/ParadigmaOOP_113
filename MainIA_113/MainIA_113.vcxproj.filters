@@ -18,14 +18,10 @@
     <ClCompile Include="MainIA_113.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ibu.h.cpp">
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
       <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="anak.h.cpp">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="mainIA.cpp">
-      <Filter>Header Files</Filter>
-    </ClCompile>
+    </ClInclude>
   </ItemGroup>
 </Project>
