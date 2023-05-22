@@ -13,3 +13,6 @@ public:
 	}
 	~manusia() {
 		cout << name << " mati\n";
+	}
+};
+#endif
