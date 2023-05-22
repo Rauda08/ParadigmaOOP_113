@@ -3,7 +3,7 @@
 using namespace std;
 
 class orang {
-    public:
+public:
     string nama;
 
     orang(string pNama) :
@@ -14,5 +14,13 @@ class orang {
         cout << "orang dihapus\n" << endl;
     }
 
-    int jumlah(int a, int b){
+    int jumlah(int a, int b) {
         return a + b;
+    }
+
+};
+
+class pelajar: public orang {
+    public:
+    string sekolah;
+};
